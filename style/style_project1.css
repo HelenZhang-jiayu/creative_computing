@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url('../image/test_bg.jpg');
+	background-repeat: no-repeat;
+  background-size: 100vw ;
+}
+h1{color:grey; font-size:80px;}
+h1{text-align: center;}
+p{font-size:22px;}
+.em{color:grey;}
+.right{text-align: right;}
+.center{text-align: center;}
+.main{
+	height:100vh;
+	box-sizing:border-box;
+	overflow:scroll;
+	width:750px;
+	margin:0px auto;
+	background-color: lightyellow;
+	padding: 40px;
+}
+/**.none{border-style: none;}*/
