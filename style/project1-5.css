@@ -7,29 +7,60 @@ height:500px;
 border-radius:50%;
 background-color: black;
 }
-#hat{margin:0 60px 0 136px;
+#hat{margin:0 100px 0 155px;
 background-color: lightgreen;
 width:200px;
 height:100px;
 }
 
-.eye{display:inline-block;
-  width: 100px;
-      height: 100px;
-      background: blue;
-      margin:50px 0 0 100px;
-    }
-.eye:hover{
-      background: red;
-      border-radius: 50%;
+.eyes{
+  width:300px;
+  margin:75px auto 0 auto;
+}
+#left_eye{
+  margin-right: 50px;
+  margin-left:130px;
+  margin-top:50px;
+}
+.eye{
+  width:100px;
+  height:100px;
+  background-color: white;
+  display: inline-block;
 }
 
-.pupil{display:inline-block;
-	width: 50px;
-      height: 50px;
-      background: white;
-      border-radius: 50%;
-      margin:15px;
+.pupil{
+  width:75px;
+  height:75px;
+  background-color: black;
+  border-radius:50%;
+}
+.eye:hover {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  background-color: rgba(0,0,0,0);
+}
+.eye:hover:before,
+.eye:hover:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.eye:hover:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+.eye:hover > .pupil{
+  opacity:0;
 }
 #mouth{
   width: 100px;
