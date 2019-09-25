@@ -4,5 +4,21 @@ p{font-size:30px;}
 .red_text{color:red;}
 .fixed_size{font-size:100px;}
 .resonsive_size{font-size:3vw;}
-.fixed_box{background-color:blue;}
-.resonsive_box{background-color: red;}
+.fixed_box{width:200px;
+		height:200px;
+		background-color:blue;}
+.resonsive_box{
+		width:20vw;
+		height:20vh;
+		background-color: red;}
+#box_1{
+	margin:0 auto 0 auto; 
+	}
+#box_3:hover{background-color:purple;}
+#box_4{transition: all 1s;}
+#box_4:hover{background-color:orange;
+			border:100px solid blue;
+			padding:20px 50px 100px 0;
+			width:900px;
+			height:500px;
+			opacity: 0.5;}
