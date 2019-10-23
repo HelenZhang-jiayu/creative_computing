@@ -1,0 +1,21 @@
+.text{
+  width:30vw;
+  height:4vw;
+  background-color:black;
+  margin:1vw;
+  text-align:center;
+	margin-top:200px;
+	font-size:40px;
+	color:pink;
+	animation: move 3s infinite linear;
+}
+@keyframes move{
+  0%{
+    transform:translate(0,0);
+  }
+  100%{
+    transform:translate(60vw,0);
+  }
+  .text{
+  	animation: move 5s infinite;
+  }
