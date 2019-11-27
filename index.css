@@ -1,0 +1,30 @@
+a{
+	text-decoration:none;
+	color:black;
+}
+#exercise a:hover{
+	color:red;
+}
+#projects a:hover{
+	color:red;
+}
+#title:hover{
+	font-size:60px;
+	font-family:snellroundhand;
+	color:red;
+}
+body{
+	margin:0px 0px 20px 40px;
+}
+#exercise{
+	font-family:gillsans;
+	font-size:30px;
+}
+#title{
+	font-family:gillsans;
+	font-size:50px;
+}
+#projects {
+	font-family:gillsans;
+	font-size:30px;
+}
