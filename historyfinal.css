@@ -1,0 +1,11 @@
+.img{
+	width:30vw;
+z-index:-1;
+}
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	width:100%;
+}
